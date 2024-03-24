@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.5s all ease;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.fileiras {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.centralizar {
+  text-align: center;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover  {
+  background-color: rgb(43, 43, 43);
+  border-radius: 55px;
+  transform: scale(1.05);
+}
+
+.formulario {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.formularios {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.calculo {
+  padding-top: 20px;
+  margin: 0px 20px;
+}
+
+.botao{
+  margin: 0px auto;
+  padding: 20px 0px;
+  width: fit-content;
+}
+
+.botao button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.botao button:hover {
+  background-color: rgb(185, 185, 185);
+}
+
+.botaohome{
+  margin: 40px auto;
+  width: fit-content;
+}
+
+.botaohome button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.botaohome button:hover {
+  background-color: rgb(185, 185, 185);
+  color: white;
+}
+
+.formularios h2 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
