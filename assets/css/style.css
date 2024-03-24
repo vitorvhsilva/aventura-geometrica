@@ -69,6 +69,7 @@ h2 {
 
 .botao button:hover {
   background-color: rgb(185, 185, 185);
+  cursor: pointer;
 }
 
 .botaohome{
@@ -85,6 +86,7 @@ h2 {
 .botaohome button:hover {
   background-color: rgb(185, 185, 185);
   color: white;
+  cursor: pointer;
 }
 
 .formularios h2 {
@@ -101,4 +103,8 @@ h3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+figure img:hover {
+  transform: scale(1.1);
 }
